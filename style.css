@@ -1,0 +1,61 @@
+*{
+    margin:25px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+.Top-section{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+
+}
+.Top-section h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.Top-section h2{
+    text-align: end;
+}
+.image-container{
+    background-image: url(BOSE.webp);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+.about_section{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color:black;
+    text-align: left;
+
+
+}
+.about_section h2{
+    
+    font-size:70px ;
+    font-weight: 400;
+}
+.about_section p{
+    font-size: 20px;
+    text-align: left;
+}
+.about-reading h2{
+    font-size:70px ;
+    font-weight: 400;
+     
+}
+.about-reading p{
+    font-size: 20px;
+    text-align: left;
+}
